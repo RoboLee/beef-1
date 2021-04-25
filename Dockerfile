@@ -1,7 +1,7 @@
 FROM ruby:2.5-slim
 LABEL maintainer "Ilya Glotov <contact@ilyaglotov.com>"
 
-ARG COMMIT=8876f69ba618c5872b3fb1bbe543892ad05de54e
+ARG COMMIT=6adad0911b2616e164960357f344be469d97c387
 
 ENV LANG="C.UTF-8" \
     DEPS="build-essential \
