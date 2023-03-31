@@ -1,4 +1,4 @@
-FROM ruby:2.5-slim
+FROM ruby:2.7.8-slim
 LABEL maintainer "Ilya Glotov <contact@ilyaglotov.com>"
 
 ARG COMMIT=6adad0911b2616e164960357f344be469d97c387
